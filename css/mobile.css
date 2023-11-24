@@ -1,0 +1,247 @@
+ .main-container {
+        margin: 0%;
+        padding: 0%;
+    }
+
+/******* header *******/
+    .directionRow{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 30px;
+        width: 100%;
+        text-align: center;
+        gap: 0;
+        
+    }
+
+    .AlignHeader{
+        flex-direction: row;
+        justify-content:center;
+        padding-top:14px;
+        padding-bottom:30px;
+    }
+
+    .navigation li{
+        width:50%; 
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .navigation ul{
+        width: 100%;
+        padding-left: 0px;
+        gap:0px;
+    }
+
+    .navigation a{
+        display: block;
+        border-top:none;  
+        padding-bottom:15px;
+    }
+    
+    .navigation li:hover{
+        padding-top: 0px;
+        color:#0065FC;
+        border-width: 2px;
+        border-color: #0065FC;
+        }
+
+.logo{
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+
+/******* Hebergement en tête *******/
+
+.Hébergement{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form{
+    border: 1px solid  #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+    padding-top:0;
+    margin-top:35px; 
+    max-width: min-content;
+}
+
+.localdotitem{
+    border:none;
+}
+
+input{
+    border:none;
+    width:160px;
+}
+
+.buttonsearch{
+    border-radius: 15px 15px 15px 15px;
+}
+
+.buttonsearch i{
+    display: inline-block;
+    color: white;
+}
+
+.buttonsearch span{
+    display:none;
+}
+
+.boxfilter{
+    flex-direction:column;
+    gap: 20px;
+    padding-bottom:35px;
+    padding-top:35px;
+}
+
+.boxfilter h3{
+    margin-bottom:10px;
+    margin-top:15px;
+}
+
+.flexfilter{
+    gap:10px;
+}
+
+.filterstyle a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin:0px;
+}
+
+/******* width 119px = calcul de border+padding pour arriver aux 162 attendus *******/
+
+.filterstyle {
+    gap: 10px;
+    width: 100%;
+    max-width: 119px;
+  }
+
+/******* hebergement-and-populaires *******/
+.populaires-cards{
+    flex-direction: column;
+}
+
+.populaires-cards .card {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+.populaires-flex{
+    width:100%;
+}
+
+.populaires-cards .card-title {
+    margin-top: 15px;
+    margin-bottom: 5px;}
+
+.hebergements{
+    order:2;
+}
+
+.populaires{
+    order:1;
+    flex: 1;
+    margin-top:0px;
+}
+
+.hebergements-and-populaires section {
+    border-radius: 0px;
+    padding-top: 30px;
+}
+
+.gridcards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+
+.c1{
+    order:1;
+    flex:1;
+}
+
+.c2{
+    order:2;
+}
+
+.c3{
+    order:3;
+}
+
+.c4{
+    order:4;
+}
+
+.c5{
+    order:5;
+}
+
+.c6{
+    order:6;
+}
+
+.hebergements-and-populaires .hebergements{
+    background-color: white;
+}
+
+/******* activités *******/
+.activites {
+    padding: 30px;
+    padding-bottom: 65px;
+  }
+
+  .activites h2{
+    margin-top:25px;
+  }
+
+.activityflex {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.activitycard {
+    gap: 0px;
+    padding-bottom: 0px;}
+
+.activitycard img{
+    height: 135px;
+}
+
+.activitycard a{
+    padding-top:0px;
+}
+
+.activitycard .card-txt{
+    padding-top: 20px;
+padding-bottom: 20px;
+}
+
+/******* footer *******/
+footer{
+    display: flex;
+	flex-direction: column;
+}
+
+.flexfooter{
+    width:100%;
+    padding: 30px;
+ 
+}
+
+.footertitles{
+    padding-top:0;
+    margin-top:0;
+}
+
+.paddingfooter{
+    padding-top:20px;
+}
